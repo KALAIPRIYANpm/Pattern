@@ -13,7 +13,6 @@ public class pattern17{
             int c=row>num ? 2*num-row:row;
             for(int spaceoff=0;spaceoff<num-c;spaceoff++){
                 System.out.print("  ");
-
             }
 
             for(int col=c;col>=1;col--){
@@ -29,3 +28,13 @@ public class pattern17{
 
     }
 }
+
+//public static void pattern(int n){
+//    for(int i =1;i<=n;i++){
+//        for(int j = i;j<=n;j++){
+//            System.out.print(" * ");
+//        }
+//        System.out.println("");
+//    }
+//}
+

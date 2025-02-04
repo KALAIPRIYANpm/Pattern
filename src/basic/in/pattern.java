@@ -4,8 +4,7 @@ public class pattern {
 
     public static void main(String[] args) {
 
-   pat(5);
-
+   pattern4(5);
     }
 
     static void patterns(int num) {
@@ -15,33 +14,22 @@ public class pattern {
             for (int col = 1; col <= row; col++) {
                 System.out.print("* ");
             }
-
             System.out.println();
-
         }
-
     }
 
     static void pattern2(int val) {
-
         for (int row = 1; row <= val; row++) {
-
             for (int col = 1; col <= val - row + 1; col++) {
-
                 System.out.print("* ");
             }
             System.out.println();
-
         }
-
     }
 
     static void pattern3(int val) {
-
         for (int row = 1; row <= val; row++) {
-
             for (int col = 1; col <= val; col++) {
-
                 System.out.print("* ");
             }
             System.out.println();
@@ -52,11 +40,9 @@ public class pattern {
     static void pattern4(int number) {
 
         for (int row = 1; row <= number; row++) {
-
             for (int col = 0; col <= row; col++) {
                 System.out.print("* ");
                 if (row == number) {
-
                     for (int iter = number; iter <= number + col; iter++) {
 
                         System.out.print("* ");

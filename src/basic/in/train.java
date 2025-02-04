@@ -11,13 +11,9 @@ public class train {
 
             int spaceoff=row>num ? 2*num-row:row;
             int cols=num-spaceoff;
-
-
-
             for(int space=0;space<=cols;space++){
                 System.out.print("  ");
             }
-
             for(int col=spaceoff;col>=1;col--){
                 System.out.print(col+" ");
             }
