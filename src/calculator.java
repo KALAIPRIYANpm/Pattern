@@ -7,6 +7,7 @@ public class calculator {
         Scanner input = new Scanner(System.in);
 //        System.out.println("Enetr the operator:");
 //        char op  = input.next().trim().charAt(0);
+        //progrsm
         int result = 0;
         while(true){
 
